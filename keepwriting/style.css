@@ -1,0 +1,80 @@
+/*
+Theme Name: keepwriting
+Theme URI: http://www.blogohblog.com/free-wordpress-theme-keep-writing
+Author: Blog Oh! Blog
+Author URI: http://www.blogohblog.com/
+Description: A free WordPress theme suitable for writers and authors from <a href="http://www.blogohblog.com" title="Free WordPress Themes">Blog Oh! Blog</a>
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, light, responsive-layout, full-width-template, two-columns, featured-images, right-sidebar
+Text Domain: keepwriting 
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+* {outline: none!important;}
+body {background: #D1D1D1; color: #444; font-family: Droid Serif; font-size: 18px;}
+body.page {padding:0; margin:0;}
+.mainbody {margin: 40px auto; background-color: #fff;}
+h1,h2,h3,h4,h5,h6 { font-family: Droid Serif; margin:10px 0;}
+a:link, a:visited, a:hover {text-decoration: none;}
+a:link, a:visited {color: #666;}
+h1.logo {margin-top: 0; font-size: 28px;}
+h2.description {margin-top: 0; font-size: 16px; color: #999; font-weight: 400; font-style: italic;}
+.padding {padding:20px;}
+.header {padding:40px 0;}
+.navmenu {font-size: 14px;}
+.navmenu li a {font-size:14px;}
+.navmenu li a, .navmenu li a:selected, .navmenu li a:active, .navmenu li a:hover {border:none;background-color: #fff;}
+.navmenu a:hover {background-color: #fff !important; color: #666 !important;}
+
+h1.heading {text-align: center; font-size: 60px; line-height: 80px; font-weight: normal;}
+h2.description {text-align: center;}
+h1.heading a {color: #333;}
+.datetime {padding:20px; color: #666; font-size: 14px;}
+.pageslist {width: 100%; text-align: center; padding: 20px;}
+.post, .page {padding:20px 40px 20px 40px;}
+.post h2 {text-align: center; font-weight: normal; font-size:32px; line-height: 42px; font-style: italic;}
+.post h2 a:hover {color: #333;}
+.post-meta {text-align: center; font-size: 12px; font-style: italic; margin-bottom: 20px; color: #333; position: relative;}
+.post-meta a {color: #999;}
+.post-meta span {background-color: #fff; padding:10px; display: inline-block; position: relative; z-index: 1;}
+.post-meta:before {content:'';width: 100%; left: 0px; position: absolute; top: 50%; height: 1px; background-color: #ccc; z-index:0;}
+.post-meta:after {content:'';width: 100%; right: 0px; position: absolute; top: 50%; height: 1px; background-color: #ccc; z-index:0;}
+body p {padding:10px 0;line-height: 36px;}
+.entry a {color: #FF9400;}
+.entry a:hover {color: #333;}
+.alignleft {float: left; margin:10px 20px 0 0; border:1px solid #333;}
+.alignright {float: right; margin:10px 0 0 20px;border:1px solid #333;}
+.aligncenter {float:none; max-width: 100%;}
+.wp-caption{font-size: 12px; text-align: center;}
+.wp-caption-text {font-size: 12px; text-align: center;}
+.sticky {}
+.page-numbers {padding:0 10px;}
+
+.sidebar {padding-bottom:40px;}
+.sidebar, .sidebar li {list-style: none;}
+.sidebar ul { padding-left: 0;}
+.gallery-caption {font-size: 12px; text-align: center;}
+.bypostauthor {font-size: 12px; text-align: center;}
+.pagetitle {font-weight: 400; text-align: center;}
+.entry ul li, .entry ol li {line-height: 34px; color: #666;}
+.entry blockquote {border-color: #ccc; margin:20px 30px;}
+.entry blockquote p{font-size: 18px;}
+.commentsbox {padding:0px 40px 20px 40px;}
+ol.comment-list, ol.comment-list li {margin-left: 0; padding-left: 0; list-style: none;}
+h4.comments-title, h3.comment-reply-title {font-weight: 400;}
+.more-link {text-align: center; width: 100%; display: inline-block;}
+.footer {padding: 20px 40px; font-size: 14px; background-color: #eaeaea; margin:0 40px 40px 40px;}
+
+/* Large desktop */
+    @media (min-width: 1200px) { ... }
+     
+    /* Portrait tablet to landscape and desktop */
+    @media (max-width: 979px) { ... }
+     
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) { .mainbody {margin: auto;} .footer .text-left, .footer .text-right {text-align: center; line-height: 24px;}}
+     
+    /* Landscape phones and down */
+    @media (max-width: 480px) { ... }
