@@ -132,9 +132,9 @@
 
 			<div class="col-md-12">
 
-			<h1 class="heading"><a href="<?php echo esc_url(home_url()); ?>"><?php bloginfo('title'); ?></a></h1>
+			<h1 class="heading"><a href="<?php echo esc_url( home_url() ); ?>"><?php esc_attr( bloginfo( 'name' ) ); ?></a></h1>
 
-			<h2 class="description"><?php bloginfo('description'); ?></h2>
+			<h2 class="description"><?php esc_attr( bloginfo( 'description' ) ); ?></h2>
 
 			</div>
 
