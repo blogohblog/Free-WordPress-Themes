@@ -72,7 +72,7 @@
 
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
 
-				<span class="sr-only">Toggle navigation</span>
+				<span class="sr-only"><?php _e( 'Toggle navigation', 'keepwriting' ); ?></span>
 
 				<span class="icon-bar"></span>
 
